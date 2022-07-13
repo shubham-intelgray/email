@@ -1,0 +1,1867 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:v="urn:schemas-microsoft-com:vml"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="x-apple-disable-message-reformatting" />
+    <title></title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700"
+      rel="stylesheet"
+    />
+
+    <style>
+      html,
+      body {
+        margin: 0 auto !important;
+        padding: 0 !important;
+        height: 100% !important;
+        width: 100% !important;
+        background: #f1f1f1;
+      }
+
+      * {
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+      }
+
+      div[style*="margin: 16px 0"] {
+        margin: 0 !important;
+      }
+
+      table,
+      td {
+        mso-table-lspace: 0pt !important;
+        mso-table-rspace: 0pt !important;
+      }
+
+      table {
+        border-spacing: 0 !important;
+        border-collapse: collapse !important;
+        table-layout: fixed !important;
+        margin: 0 auto !important;
+      }
+
+      img {
+        -ms-interpolation-mode: bicubic;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      *[x-apple-data-detectors],
+      .unstyle-auto-detected-links *,
+      .aBn {
+        border-bottom: 0 !important;
+        cursor: default !important;
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+      }
+
+      .a6S {
+        display: none !important;
+        opacity: 0.01 !important;
+      }
+
+      .im {
+        color: inherit !important;
+      }
+
+      img.g-img + div {
+        display: none !important;
+      }
+
+      @media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
+        u ~ div .email-container {
+          min-width: 320px !important;
+        }
+      }
+
+      @media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+        u ~ div .email-container {
+          min-width: 375px !important;
+        }
+      }
+
+      @media only screen and (min-device-width: 414px) {
+        u ~ div .email-container {
+          min-width: 414px !important;
+        }
+      }
+    </style>
+
+    <style>
+      .primary {
+        background: #ffffff;
+      }
+
+      .bg_white {
+        background: #ffffff;
+      }
+
+      .bg_light {
+        background: #fafafa;
+      }
+
+      .bg_black {
+        background: #000000;
+      }
+
+      .bg_dark {
+        background: rgba(0, 0, 0, 0.8);
+      }
+
+      .email-section {
+        padding: 2.5em;
+      }
+
+      .btn {
+        padding: 5px 20px;
+        display: inline-block;
+      }
+
+      .btn.btn-primary {
+        border-radius: 5px;
+        background: #bc90c0;
+        color: #ffffff;
+      }
+
+      .btn.btn-white {
+        border-radius: 5px;
+        background: #ffffff;
+        color: #000000;
+      }
+
+      .btn.btn-white-outline {
+        border-radius: 5px;
+        background: transparent;
+        border: 1px solid #fff;
+        color: #fff;
+      }
+
+      .btn.btn-black {
+        border-radius: 20px;
+        background: #000;
+        color: #fff;
+      }
+
+      .btn.btn-black-outline {
+        border-radius: 0px;
+        background: transparent;
+        border: 2px solid #000;
+        color: #000;
+        font-weight: 700;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        color: #000000;
+        margin-top: 0;
+        font-weight: 400;
+      }
+
+      body {
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 1.8;
+        color: rgba(0, 0, 0, 0.5);
+      }
+
+      a {
+        color: #ad5cb4fa;
+      }
+
+      .logo h1 {
+        margin: 0;
+      }
+
+      .logo h1 a {
+        color: #000000;
+        font-size: 30px;
+        font-family: "Playfair Display", sans-serif;
+      }
+
+      .navigation {
+        padding: 0;
+        padding: 1em 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.05);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        margin-bottom: 0;
+      }
+
+      .navigation li {
+        list-style: none;
+        display: inline-block;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 13px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+
+      .navigation li a {
+        color: rgba(0, 0, 0, 1);
+      }
+
+      .unbox-img {
+        width: -webkit-fill-available;
+      }
+
+      .hero {
+        position: relative;
+        z-index: 0;
+      }
+
+      .hero .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        content: "";
+        width: 100%;
+        background: #000000;
+        z-index: -1;
+        opacity: 0.2;
+      }
+
+      .hero .text {
+        color: rgba(255, 255, 255, 0.9);
+        max-width: 50%;
+        margin: 0 auto 0;
+      }
+
+      .hero .text h2 {
+        color: #fff;
+        font-size: 30px;
+        margin-bottom: 0;
+        font-weight: 300;
+        line-height: 1.4;
+      }
+
+      .hero .text h2 span {
+        font-weight: 600;
+        color: #bc90c0;
+      }
+
+      .intro {
+        position: relative;
+        z-index: 0;
+      }
+
+      .intro .text {
+        color: rgba(0, 0, 0, 0.3);
+      }
+
+      .intro .text h2 {
+        color: #000;
+        font-size: 34px;
+        margin-bottom: 0;
+        font-weight: 300;
+      }
+
+      .intro .text h2 span {
+        font-weight: 600;
+        color: #bc90c0;
+      }
+
+      .text-product .price {
+        font-size: 20px;
+        color: black;
+        display: inline-block;
+        margin-bottom: 1em;
+        border: 2px solid black;
+        padding: 0 10px;
+        border-radius: 2rem;
+      }
+
+      .text-product h2 {
+        font-family: "Lato", sans-serif;
+      }
+
+      .heading-section h2 {
+        color: #000000;
+        font-size: 28px;
+        margin-top: 0;
+        line-height: 1.4;
+        font-weight: 400;
+      }
+
+      .heading-section .subheading {
+        margin-bottom: 20px !important;
+        display: inline-block;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: rgba(0, 0, 0, 0.4);
+        position: relative;
+      }
+
+      .heading-section .subheading::after {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -10px;
+        content: "";
+        width: 100%;
+        height: 2px;
+        background: #bc90c0;
+        margin: 0 auto;
+      }
+
+      .heading-section-white {
+        color: rgba(255, 255, 255, 0.8);
+      }
+
+      .heading-section-white h2 {
+        line-height: 1;
+        padding-bottom: 0;
+      }
+
+      .td-25 {
+        width: 25%;
+      }
+
+      .heading-section-white h2 {
+        color: #ffffff;
+      }
+      .bb {
+        border-bottom: 1px dashed #ccc;
+      }
+
+      .heading-section-white .subheading {
+        margin-bottom: 0;
+        display: inline-block;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: rgba(255, 255, 255, 0.4);
+      }
+
+      ul.social {
+        padding: 0;
+      }
+
+      ul.social li {
+        display: inline-block;
+        margin-right: 10px;
+      }
+
+      .footer {
+        border-top: 1px solid rgba(0, 0, 0, 0.05);
+        color: rgba(0, 0, 0, 0.5);
+      }
+
+      .footer .heading {
+        color: #000;
+        font-size: 20px;
+      }
+
+      .footer ul {
+        margin: 0;
+        padding: 0;
+      }
+
+      .footer ul li {
+        list-style: none;
+        margin-bottom: 10px;
+      }
+
+      .footer ul li a {
+        color: rgba(0, 0, 0, 1);
+      }
+      .pname {
+        font-size: 12px !important;
+      }
+      .text-product .price {
+        min-width: 7rem;
+      }
+
+      @media screen and (min-width: 500px) {
+        .pname {
+          font-size: 20px !important;
+        }
+      }
+    </style>
+  </head>
+
+  <body
+    width="100%"
+    style="
+      margin: 0;
+      padding: 0 !important;
+      mso-line-height-rule: exactly;
+      background-color: #222222;
+    "
+  >
+    <center style="width: 100%; background-color: #f1f1f1">
+      <div
+        style="
+          display: none;
+          font-size: 1px;
+          max-height: 0px;
+          max-width: 0px;
+          opacity: 0;
+          overflow: hidden;
+          mso-hide: all;
+          font-family: sans-serif;
+        "
+      >
+        &zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+      </div>
+      <div style="max-width: 600px; margin: 0 auto" class="email-container">
+        <table
+          align="center"
+          role="presentation"
+          cellspacing="0"
+          cellpadding="0"
+          border="0"
+          width="100%"
+          style="margin: auto"
+        >
+          <tr>
+            <td
+              valign="top"
+              class="bg_white"
+              style="padding: 1em 2.5em 0 2.5em"
+            >
+              <table
+                role="presentation"
+                border="0"
+                cellpadding="0"
+                cellspacing="0"
+                width="100%"
+              >
+                <tr>
+                  <td class="logo" style="text-align: center">
+                    <img
+                      style="width: 60px; height: 49px"
+                      src="images/unnamed.jpg"
+                    />
+                    <h1><a href="https://www.unboxbasics.com/">UNBOX</a></h1>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top" class="bg_white" style="padding: 0">
+              <table
+                role="presentation"
+                border="0"
+                cellpadding="0"
+                cellspacing="0"
+                width="100%"
+              >
+                <tr>
+                  <td width="60%" style="text-align: center">
+                    <ul class="navigation">
+                      <li>
+                        <a href="https://www.unboxbasics.com/" target="_blank"
+                          >Home</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://www.unboxbasics.com/" target="_blank"
+                          >LEGGINGS</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.unboxbasics.com/boutique/t-shirts"
+                          target="_blank"
+                          >TOP</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.unboxbasics.com/boutique/shorts"
+                          target="_blank"
+                          >SHORTS</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.unboxbasics.com/boutique/dresses"
+                          target="_blank"
+                          >DRESSES</a
+                        >
+                      </li>
+
+                      <li>
+                        <a
+                          href="https://www.unboxbasics.com/boutique/trendy-fashion"
+                          target="_blank"
+                          >NEW COLLECTIONS</a
+                        >
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="hero bg_white">
+              <a href="https://www.unboxbasics.com/" target="_blank"
+                ><img
+                  style="width: -webkit-fill-available"
+                  src="attachments/websiteimage2.png"
+              /></a>
+            </td>
+          </tr>
+          <tr>
+            <td valign="middle" class="intro bg_white">
+              <table>
+                <tr>
+                  <td style="display: flex; padding-top: 1rem">
+                    <h2 style="font-weight: bold">Shop now. Pay later with</h2>
+                    <img
+                      src="images/tabbybadge.png"
+                      style="height: 2rem; padding-top: 7px"
+                    />
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td
+              valign="middle"
+              class="intro bg_white"
+              style="padding: 2em 0 4em 0"
+            >
+              <table>
+                <tr>
+                  <td>
+                    <div style="padding-left: 1rem">
+                      <h2>
+                        <strong>UNBOX Your Summer Outfit;</strong>
+                      </h2>
+                      <p>
+                        Enjoy this summer with UNBOX trendy outfits. Boho chic
+                        style, ready for the beach and beyond. Dressed for day
+                        or night, we are loving the summer wear from UNBOX
+                        Basics for this Summer season.
+                      </p>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td></td>
+            </tr>
+          </table>
+
+          <tr>
+            <td class="bg_white">
+              <table
+                role="presentation"
+                cellspacing="0"
+                cellpadding="0"
+                border="0"
+                width="100%"
+              >
+                <tr>
+                  <td
+                    class="primary email-section"
+                    style="padding: 0; width: 100%"
+                  >
+                    <table
+                      role="presentation"
+                      border="0"
+                      cellpadding="0"
+                      cellspacing="0"
+                      width="100%"
+                    >
+                      <tr>
+                        <td valign="middle" width="50%">
+                          <table
+                            role="presentation"
+                            cellspacing="0"
+                            cellpadding="0"
+                            border="0"
+                            width="100%"
+                          >
+                            <tr>
+                              <td
+                                class="text-product"
+                                style="text-align: left; padding: 20px 30px"
+                              >
+                                <div class="heading-section">
+                                  <h2 class="pname">Purple ethnic cardigan</h2>
+                                  <span class="price">AED 200.00 </span>
+
+                                  <p>
+                                    or 4 interest-free payments of
+                                    <strong>50.00 AED</strong>.
+                                  </p>
+                                  <p>
+                                    <a
+                                      href="https://www.unboxbasics.com/boutique-products/pur-car-/purple-ethnic-cardigan/838d9f91-8555-4323-bd53-09a4549395b1"
+                                      class="btn btn-black"
+                                      target="_blank"
+                                      >Shop now</a
+                                    >
+                                  </p>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td valign="middle" width="50%">
+                          <table
+                            role="presentation"
+                            cellspacing="0"
+                            cellpadding="0"
+                            border="0"
+                            width="100%"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  src="attachments/websiteimage30.png"
+                                  alt=""
+                                  style="
+                                    width: 100%;
+                                    max-width: 600px;
+                                    height: auto;
+                                    margin: auto;
+                                    display: block;
+                                  "
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td
+                    class="primary email-section"
+                    style="padding: 0; width: 100%"
+                  >
+                    <table
+                      role="presentation"
+                      border="0"
+                      cellpadding="0"
+                      cellspacing="0"
+                      width="100%"
+                    >
+                      <tr>
+                        <td valign="middle" width="50%">
+                          <table
+                            role="presentation"
+                            cellspacing="0"
+                            cellpadding="0"
+                            border="0"
+                            width="100%"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  src="attachments/websiteimage26.png"
+                                  alt=""
+                                  style="
+                                    width: 100%;
+                                    max-width: 600px;
+                                    height: auto;
+                                    margin: auto;
+                                    display: block;
+                                  "
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td valign="middle" width="50%">
+                          <table
+                            role="presentation"
+                            cellspacing="0"
+                            cellpadding="0"
+                            border="0"
+                            width="100%"
+                          >
+                            <tr>
+                              <td
+                                class="text-product"
+                                style="text-align: left; padding: 20px 30px"
+                              >
+                                <div class="heading-section">
+                                  <h2 class="pname">Milky summer dress</h2>
+                                  <span class="price">AED 150.00 </span>
+
+                                  <p>
+                                    or 4 interest-free payments of
+                                    <strong>37.50 AED</strong>.
+                                  </p>
+                                  <p>
+                                    <a
+                                      href="https://www.unboxbasics.com/boutique-products/ms-001/milky-summer-dress/73e8b575-13eb-4e4d-bd86-1ff62eaaf1fb"
+                                      target="_blank"
+                                      class="btn btn-black"
+                                      >Shop now</a
+                                    >
+                                  </p>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td
+                    class="primary email-section"
+                    style="padding: 0; width: 100%"
+                  >
+                    <table
+                      role="presentation"
+                      border="0"
+                      cellpadding="0"
+                      cellspacing="0"
+                      width="100%"
+                    >
+                      <tr>
+                        <td valign="middle" width="50%">
+                          <table
+                            role="presentation"
+                            cellspacing="0"
+                            cellpadding="0"
+                            border="0"
+                            width="100%"
+                          >
+                            <tr>
+                              <td
+                                class="text-product"
+                                style="text-align: left; padding: 20px 30px"
+                              >
+                                <div class="heading-section">
+                                  <h2 class="pname">Rose floral dress</h2>
+                                  <span class="price">AED 130.00 </span>
+
+                                  <p>
+                                    or 4 interest-free payments of
+                                    <strong>32.50 AED</strong>.
+                                  </p>
+                                  <p>
+                                    <a
+                                      href="https://www.unboxbasics.com/boutique-products/rf-00001/rose-floral-dress/9c74a7bc-0f93-4237-8d46-07b79e3b8804"
+                                      class="btn btn-black"
+                                      target="_blank"
+                                      >Shop now</a
+                                    >
+                                  </p>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td valign="middle" width="50%">
+                          <table
+                            role="presentation"
+                            cellspacing="0"
+                            cellpadding="0"
+                            border="0"
+                            width="100%"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  src="attachments/websiteimage14.png"
+                                  alt=""
+                                  style="
+                                    width: 100%;
+                                    max-width: 600px;
+                                    height: auto;
+                                    margin: auto;
+                                    display: block;
+                                  "
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td
+                    class="primary email-section"
+                    style="padding: 0; width: 100%"
+                  >
+                    <table
+                      role="presentation"
+                      border="0"
+                      cellpadding="0"
+                      cellspacing="0"
+                      width="100%"
+                    >
+                      <tr>
+                        <td valign="middle" width="50%">
+                          <table
+                            role="presentation"
+                            cellspacing="0"
+                            cellpadding="0"
+                            border="0"
+                            width="100%"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  src="attachments/websiteimage15.png"
+                                  alt=""
+                                  style="
+                                    width: 100%;
+                                    max-width: 600px;
+                                    height: auto;
+                                    margin: auto;
+                                    display: block;
+                                  "
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td valign="middle" width="50%">
+                          <table
+                            role="presentation"
+                            cellspacing="0"
+                            cellpadding="0"
+                            border="0"
+                            width="100%"
+                          >
+                            <tr>
+                              <td
+                                class="text-product"
+                                style="text-align: left; padding: 20px 30px"
+                              >
+                                <div class="heading-section">
+                                  <h2 class="pname">
+                                    White square collar sexy stretchy summer
+                                    dress
+                                  </h2>
+                                  <span class="price">AED 150.00 </span>
+
+                                  <p>
+                                    or 4 interest-free payments of
+                                    <strong>37.50 AED</strong>.
+                                  </p>
+                                  <p>
+                                    <a
+                                      href="https://www.unboxbasics.com/boutique-products/b-s5/white-square-collar-sexy-stretchy-summer-dress/1509c9c4-969f-4a50-88e2-e7f3c08a579e"
+                                      target="_blank"
+                                      class="btn btn-black"
+                                      >Shop now</a
+                                    >
+                                  </p>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    class="primary email-section"
+                    style="padding: 0; width: 100%"
+                  >
+                    <table
+                      role="presentation"
+                      border="0"
+                      cellpadding="0"
+                      cellspacing="0"
+                      width="100%"
+                    >
+                      <tr>
+                        <td valign="middle" width="50%">
+                          <table
+                            role="presentation"
+                            cellspacing="0"
+                            cellpadding="0"
+                            border="0"
+                            width="100%"
+                          >
+                            <tr>
+                              <td
+                                class="text-product"
+                                style="text-align: left; padding: 20px 30px"
+                              >
+                                <div class="heading-section">
+                                  <h2 class="pname">
+                                    Boho ruffles wrap summer dress
+                                  </h2>
+                                  <span class="price">AED 130.00 </span>
+
+                                  <p>
+                                    or 4 interest-free payments of
+                                    <strong>32.50 AED</strong>.
+                                  </p>
+                                  <p>
+                                    <a
+                                      href="https://www.unboxbasics.com/boutique-products/br-0001/boho-ruffles-wrap-summer-dress/349cffd4-ee3f-4288-9a2f-c70c9e6aa1c0"
+                                      target="_blank"
+                                      class="btn btn-black"
+                                      >Shop now</a
+                                    >
+                                  </p>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td valign="middle" width="50%">
+                          <table
+                            role="presentation"
+                            cellspacing="0"
+                            cellpadding="0"
+                            border="0"
+                            width="100%"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  src="attachments/websiteimage29.png"
+                                  alt=""
+                                  style="
+                                    width: 100%;
+                                    max-width: 600px;
+                                    height: auto;
+                                    margin: auto;
+                                    display: block;
+                                  "
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    class="primary email-section"
+                    style="padding: 0; width: 100%"
+                  >
+                    <table
+                      role="presentation"
+                      border="0"
+                      cellpadding="0"
+                      cellspacing="0"
+                      width="100%"
+                    >
+                      <tr>
+                        <td valign="middle" width="50%">
+                          <table
+                            role="presentation"
+                            cellspacing="0"
+                            cellpadding="0"
+                            border="0"
+                            width="100%"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  src="attachments/websiteimage28.png"
+                                  alt=""
+                                  style="
+                                    width: 100%;
+                                    max-width: 600px;
+                                    height: auto;
+                                    margin: auto;
+                                    display: block;
+                                  "
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td valign="middle" width="50%">
+                          <table
+                            role="presentation"
+                            cellspacing="0"
+                            cellpadding="0"
+                            border="0"
+                            width="100%"
+                          >
+                            <tr>
+                              <td
+                                class="text-product"
+                                style="text-align: left; padding: 20px 30px"
+                              >
+                                <div class="heading-section">
+                                  <h2 class="pname">
+                                    Blue bird print cardigan
+                                  </h2>
+                                  <span class="price">AED 200.00 </span>
+                                  <p>
+                                    or 4 interest-free payments of
+                                    <strong>50.00 AED</strong>.
+                                  </p>
+
+                                  <p>
+                                    <a
+                                      href="https://www.unboxbasics.com/boutique-products/car5/blue-bird-print-cardigan-/e0b5e67a-ab37-4ed4-8e5e-082d7ae03871"
+                                      target="_blank"
+                                      class="btn btn-black"
+                                      >Shop now</a
+                                    >
+                                  </p>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    class="primary email-section"
+                    style="padding: 0; width: 100%"
+                  >
+                    <table
+                      role="presentation"
+                      border="0"
+                      cellpadding="0"
+                      cellspacing="0"
+                      width="100%"
+                    >
+                      <tr>
+                        <td valign="middle" width="50%">
+                          <table
+                            role="presentation"
+                            cellspacing="0"
+                            cellpadding="0"
+                            border="0"
+                            width="100%"
+                          >
+                            <tr>
+                              <td
+                                class="text-product"
+                                style="text-align: left; padding: 20px 30px"
+                              >
+                                <div class="heading-section">
+                                  <h2 class="pname">
+                                    Orange Strapless Summer Dress
+                                  </h2>
+                                  <span class="price">AED 160.00 </span>
+
+                                  <p>
+                                    or 4 interest-free payments of
+                                    <strong>40.00 AED</strong>.
+                                  </p>
+                                  <p>
+                                    <a
+                                      href="https://www.unboxbasics.com/boutique-products/sl-001/orange-strapless-summer-dress/38f5212a-bbe9-4982-b2ea-2bc8838b6b02"
+                                      class="btn btn-black"
+                                      target="_blank"
+                                      >Shop now</a
+                                    >
+                                  </p>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td valign="middle" width="50%">
+                          <table
+                            role="presentation"
+                            cellspacing="0"
+                            cellpadding="0"
+                            border="0"
+                            width="100%"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  src="attachments/websiteimage27.png"
+                                  alt=""
+                                  style="
+                                    width: 100%;
+                                    max-width: 600px;
+                                    height: auto;
+                                    margin: auto;
+                                    display: block;
+                                  "
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td
+                    class="primary email-section"
+                    style="padding: 0; width: 100%"
+                  >
+                    <table
+                      role="presentation"
+                      border="0"
+                      cellpadding="0"
+                      cellspacing="0"
+                      width="100%"
+                    >
+                      <tr>
+                        <td valign="middle" width="50%">
+                          <table
+                            role="presentation"
+                            cellspacing="0"
+                            cellpadding="0"
+                            border="0"
+                            width="100%"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  src="attachments/websiteimage17.png"
+                                  alt=""
+                                  style="
+                                    width: 100%;
+                                    max-width: 600px;
+                                    height: auto;
+                                    margin: auto;
+                                    display: block;
+                                  "
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td valign="middle" width="50%">
+                          <table
+                            role="presentation"
+                            cellspacing="0"
+                            cellpadding="0"
+                            border="0"
+                            width="100%"
+                          >
+                            <tr>
+                              <td
+                                class="text-product"
+                                style="text-align: left; padding: 20px 30px"
+                              >
+                                <div class="heading-section">
+                                  <h2 class="pname">
+                                    LYCRA HIGH-WAISTED SHORTS NAVY BLUE
+                                  </h2>
+                                  <span class="price">AED 80.00 </span>
+
+                                  <p>
+                                    or 4 interest-free payments of
+                                    <strong>20.00 AED</strong>.
+                                  </p>
+                                  <p>
+                                    <a
+                                      href="https://www.unboxbasics.com/boutique-products/sh-10008/lycra-high-waisted-shorts-navy-blue/bc3c5c29-b9a2-4764-b5e8-eb70daf53e09"
+                                      target="_blank"
+                                      class="btn btn-black"
+                                      >Shop now</a
+                                    >
+                                  </p>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    class="primary email-section"
+                    style="padding: 0; width: 100%"
+                  >
+                    <table
+                      role="presentation"
+                      border="0"
+                      cellpadding="0"
+                      cellspacing="0"
+                      width="100%"
+                    >
+                      <tr>
+                        <td valign="middle" width="50%">
+                          <table
+                            role="presentation"
+                            cellspacing="0"
+                            cellpadding="0"
+                            border="0"
+                            width="100%"
+                          >
+                            <tr>
+                              <td
+                                class="text-product"
+                                style="text-align: left; padding: 20px 30px"
+                              >
+                                <div class="heading-section">
+                                  <h2 class="pname">
+                                    LYCRA HIGH-WAISTED SHORTS ROYAL BLUE
+                                  </h2>
+                                  <span class="price">AED 80.00 </span>
+
+                                  <p>
+                                    or 4 interest-free payments of
+                                    <strong>20.00 AED</strong>.
+                                  </p>
+                                  <p>
+                                    <a
+                                      href="https://www.unboxbasics.com/boutique-products/sh-10007/lycra-high-waisted-shorts-royal-blue/8b2b4a1a-b841-4efc-9824-e65e09323f8e"
+                                      target="_blank"
+                                      class="btn btn-black"
+                                      >Shop now</a
+                                    >
+                                  </p>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td valign="middle" width="50%">
+                          <table
+                            role="presentation"
+                            cellspacing="0"
+                            cellpadding="0"
+                            border="0"
+                            width="100%"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  src="attachments/websiteimage18.png"
+                                  alt=""
+                                  style="
+                                    width: 100%;
+                                    max-width: 600px;
+                                    height: auto;
+                                    margin: auto;
+                                    display: block;
+                                  "
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    class="primary email-section"
+                    style="padding: 0; width: 100%"
+                  >
+                    <table
+                      role="presentation"
+                      border="0"
+                      cellpadding="0"
+                      cellspacing="0"
+                      width="100%"
+                    >
+                      <tr>
+                        <td valign="middle" width="50%">
+                          <table
+                            role="presentation"
+                            cellspacing="0"
+                            cellpadding="0"
+                            border="0"
+                            width="100%"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  src="attachments/websiteimage19.png"
+                                  alt=""
+                                  style="
+                                    width: 100%;
+                                    max-width: 600px;
+                                    height: auto;
+                                    margin: auto;
+                                    display: block;
+                                  "
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td valign="middle" width="50%">
+                          <table
+                            role="presentation"
+                            cellspacing="0"
+                            cellpadding="0"
+                            border="0"
+                            width="100%"
+                          >
+                            <tr>
+                              <td
+                                class="text-product"
+                                style="text-align: left; padding: 20px 30px"
+                              >
+                                <div class="heading-section">
+                                  <h2 class="pname">
+                                    LYCRA HIGH-WAISTED SHORTS ORANGE
+                                  </h2>
+                                  <span class="price">AED 80.00 </span>
+
+                                  <p>
+                                    or 4 interest-free payments of
+                                    <strong>20.00 AED</strong>.
+                                  </p>
+                                  <p>
+                                    <a
+                                      href="https://www.unboxbasics.com/boutique-products/orange-shorts/lycra-high-waisted-shorts-orange/5ab63914-4e79-4a11-a715-6ca115faa400"
+                                      target="_blank"
+                                      class="btn btn-black"
+                                      >Shop now</a
+                                    >
+                                  </p>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    class="primary email-section"
+                    style="padding: 0; width: 100%"
+                  >
+                    <table
+                      role="presentation"
+                      border="0"
+                      cellpadding="0"
+                      cellspacing="0"
+                      width="100%"
+                    >
+                      <tr>
+                        <td valign="middle" width="50%">
+                          <table
+                            role="presentation"
+                            cellspacing="0"
+                            cellpadding="0"
+                            border="0"
+                            width="100%"
+                          >
+                            <tr>
+                              <td
+                                class="text-product"
+                                style="text-align: left; padding: 20px 30px"
+                              >
+                                <div class="heading-section">
+                                  <h2 class="pname">
+                                    Floral Patterned Crop Top - Pink
+                                  </h2>
+                                  <span class="price">AED 100.00 </span>
+
+                                  <p>
+                                    or 4 interest-free payments of
+                                    <strong>25.00 AED</strong>.
+                                  </p>
+                                  <p>
+                                    <a
+                                      href="https://www.unboxbasics.com/boutique-products/pink-top/floral-patterned-crop-top---pink-/905a4b5c-2a82-40c2-93d5-19c0abad5c59"
+                                      target="_blank"
+                                      class="btn btn-black"
+                                      >Shop now</a
+                                    >
+                                  </p>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td valign="middle" width="50%">
+                          <table
+                            role="presentation"
+                            cellspacing="0"
+                            cellpadding="0"
+                            border="0"
+                            width="100%"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  src="attachments/websiteimage20.png"
+                                  alt=""
+                                  style="
+                                    width: 100%;
+                                    max-width: 600px;
+                                    height: auto;
+                                    margin: auto;
+                                    display: block;
+                                  "
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    class="primary email-section"
+                    style="padding: 0; width: 100%"
+                  >
+                    <table
+                      role="presentation"
+                      border="0"
+                      cellpadding="0"
+                      cellspacing="0"
+                      width="100%"
+                    >
+                      <tr>
+                        <td valign="middle" width="50%">
+                          <table
+                            role="presentation"
+                            cellspacing="0"
+                            cellpadding="0"
+                            border="0"
+                            width="100%"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  src="attachments/websiteimage21.png"
+                                  alt=""
+                                  style="
+                                    width: 100%;
+                                    max-width: 600px;
+                                    height: auto;
+                                    margin: auto;
+                                    display: block;
+                                  "
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td valign="middle" width="50%">
+                          <table
+                            role="presentation"
+                            cellspacing="0"
+                            cellpadding="0"
+                            border="0"
+                            width="100%"
+                          >
+                            <tr>
+                              <td
+                                class="text-product"
+                                style="text-align: left; padding: 20px 30px"
+                              >
+                                <div class="heading-section">
+                                  <h2 class="pname">FUSCHIA CROPTOP</h2>
+                                  <span class="price">AED 80.00 </span>
+                                  <p>
+                                    or 4 interest-free payments of
+                                    <strong>20.00 AED</strong>.
+                                  </p>
+
+                                  <p>
+                                    <a
+                                      href="https://www.unboxbasics.com/boutique-products/ct-10008/fuschia-croptop-/191abbdf-b2c8-47e8-b1a0-56e53392d98e"
+                                      target="_blank"
+                                      class="btn btn-black"
+                                      >Shop now</a
+                                    >
+                                  </p>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    class="primary email-section"
+                    style="padding: 0; width: 100%"
+                  >
+                    <table
+                      role="presentation"
+                      border="0"
+                      cellpadding="0"
+                      cellspacing="0"
+                      width="100%"
+                    >
+                      <tr>
+                        <td valign="middle" width="50%">
+                          <table
+                            role="presentation"
+                            cellspacing="0"
+                            cellpadding="0"
+                            border="0"
+                            width="100%"
+                          >
+                            <tr>
+                              <td
+                                class="text-product"
+                                style="text-align: left; padding: 20px 30px"
+                              >
+                                <div class="heading-section">
+                                  <h2 class="pname">RED CROP TOP LONG</h2>
+                                  <span class="price">AED 80.00 </span>
+
+                                  <p>
+                                    or 4 interest-free payments of
+                                    <strong>20.00 AED</strong>.
+                                  </p>
+                                  <p>
+                                    <a
+                                      href="https://www.unboxbasics.com/boutique-products/red/red-crop-top-long/5893b66b-3737-4986-b3a8-86d3bcef7177"
+                                      target="_blank"
+                                      class="btn btn-black"
+                                      >Shop now</a
+                                    >
+                                  </p>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td valign="middle" width="50%">
+                          <table
+                            role="presentation"
+                            cellspacing="0"
+                            cellpadding="0"
+                            border="0"
+                            width="100%"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  src="attachments/websiteimage22.png"
+                                  alt=""
+                                  style="
+                                    width: 100%;
+                                    max-width: 600px;
+                                    height: auto;
+                                    margin: auto;
+                                    display: block;
+                                  "
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    class="primary email-section"
+                    style="padding: 0; width: 100%"
+                  >
+                    <table
+                      role="presentation"
+                      border="0"
+                      cellpadding="0"
+                      cellspacing="0"
+                      width="100%"
+                    >
+                      <tr>
+                        <td valign="middle" width="50%">
+                          <table
+                            role="presentation"
+                            cellspacing="0"
+                            cellpadding="0"
+                            border="0"
+                            width="100%"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  src="attachments/websiteimage23.png"
+                                  alt=""
+                                  style="
+                                    width: 100%;
+                                    max-width: 600px;
+                                    height: auto;
+                                    margin: auto;
+                                    display: block;
+                                  "
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td valign="middle" width="50%">
+                          <table
+                            role="presentation"
+                            cellspacing="0"
+                            cellpadding="0"
+                            border="0"
+                            width="100%"
+                          >
+                            <tr>
+                              <td
+                                class="text-product"
+                                style="text-align: left; padding: 20px 30px"
+                              >
+                                <div class="heading-section">
+                                  <h2 class="pname">
+                                    LYCRA HIGH-WAISTED LEGGINGS NAVY BLUE
+                                  </h2>
+                                  <span class="price">AED 100.00 </span>
+                                  <p>
+                                    or 4 interest-free payments of
+                                    <strong>25.00 AED</strong>.
+                                  </p>
+
+                                  <p>
+                                    <a
+                                      href="https://www.unboxbasics.com/boutique-products/lg-10008/lycra-high-waisted-leggings-navy-blue/20c92e53-47e9-45de-a7fe-35ff2e5ae5f3"
+                                      target="_blank"
+                                      class="btn btn-black"
+                                      >Shop now</a
+                                    >
+                                  </p>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td
+                    class="primary email-section"
+                    style="padding: 0; width: 100%"
+                  >
+                    <table
+                      role="presentation"
+                      border="0"
+                      cellpadding="0"
+                      cellspacing="0"
+                      width="100%"
+                    >
+                      <tr>
+                        <td valign="middle" width="50%">
+                          <table
+                            role="presentation"
+                            cellspacing="0"
+                            cellpadding="0"
+                            border="0"
+                            width="100%"
+                          >
+                            <tr>
+                              <td
+                                class="text-product"
+                                style="text-align: left; padding: 20px 30px"
+                              >
+                                <div class="heading-section">
+                                  <h2 class="pname">
+                                    Beige square collar sexy stretchy summer
+                                    dress
+                                  </h2>
+                                  <span class="price">AED 150.00</span>
+
+                                  <p>
+                                    or 4 interest-free payments of
+                                    <strong>37.50 AED</strong>.
+                                  </p>
+                                  <p>
+                                    <a
+                                      href="https://www.unboxbasics.com/boutique-products/b-s2/beige-square-collar-sexy-stretchy-summer-dress/b74acdc4-8a98-46a6-8073-2c2fb9173771"
+                                      target="_blank"
+                                      class="btn btn-black"
+                                      >Shop now</a
+                                    >
+                                  </p>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td valign="middle" width="50%">
+                          <table
+                            role="presentation"
+                            cellspacing="0"
+                            cellpadding="0"
+                            border="0"
+                            width="100%"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  src="attachments/websiteimage16.png"
+                                  alt=""
+                                  style="
+                                    width: 100%;
+                                    max-width: 600px;
+                                    height: auto;
+                                    margin: auto;
+                                    display: block;
+                                  "
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="padding: 2em 0">
+              <table
+                align="center"
+                role="presentation"
+                cellspacing="0"
+                cellpadding="0"
+                border="0"
+                width="100%"
+                style="margin: auto"
+                class="bg_white"
+              >
+                <tr>
+                  <td>
+                    <div
+                      class="text"
+                      style="padding: 0 2.5em; text-align: center"
+                    >
+                      <p>
+                        <a
+                          href="https://www.unboxbasics.com/"
+                          target="_blank"
+                          class="btn btn-black-outline"
+                          >Start Shopping</a
+                        >
+                      </p>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        <table
+          align="center"
+          role="presentation"
+          cellspacing="0"
+          cellpadding="0"
+          border="0"
+          width="100%"
+          style="margin: auto"
+        >
+          <tr>
+            <td valign="middle" class="bg_white footer">
+              <table>
+                <tr>
+                  <td style="text-align: center; width: 100%">
+                    <h1>FOLLOW US ON INSTAGRAM!</h1>
+                  </td>
+                  <td
+                    valign="middle"
+                    style="padding-top: 20px; text-align: right"
+                  ></td>
+                </tr>
+                <tr valign="middle">
+                  <td style="text-align: center; width: 100%">
+                    <a
+                      href="https://www.instagram.com/unbox.uae/"
+                      target="_blank"
+                      ><i class="fab fa-instagram fa-3x"></i
+                    ></a>
+                    <p>
+                      You received this message because you've registered or
+                      accepted our invitation to receive emails from UNBOX, or
+                      you've made a purchase from UNBOX.
+                    </p>
+                    <p>
+                      Please Note：to stop receiving emails, click on the
+                      UNSUBSCRIBE button above/below, and do not directly reply
+                      to this email, as this email was generated automatically
+                      and thus your unsubscription request will not be
+                      processed.
+                    </p>
+                    <p>
+                      <a href="https://www.unboxbasics.com/privacy-policy"
+                        >PRIVACY POLICY </a
+                      >|
+                      <a href="https://www.unboxbasics.com/terms-conditions"
+                        >CONDITIONS & TERMS</a
+                      >
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td class="bg_light" style="text-align: center">
+              <p>
+                No longer want to receive these email? You can
+                <a
+                  href="https://www.unboxbasics.com/"
+                  style="color: rgba(0, 0, 0, 0.8)"
+                  >Unsubscribe here</a
+                >
+              </p>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </center>
+    <script
+      src="https://kit.fontawesome.com/1442993351.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
